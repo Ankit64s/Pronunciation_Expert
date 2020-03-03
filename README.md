@@ -1,0 +1,2 @@
+# Pronunciation_Expert
+It is the project based on Android for improving the pronunciation in US accent along with tic-tac toe game for fun.  This app is published in Amazon Appstore. Link for viewing app: https://www.amazon.com/Ankit-Singh-Pronunciation-Expert/dp/B07VN16N2J/ref=pd_vtp_405_1/131-0359532-4500705?_encoding=UTF8&amp;pd_rd_i=B07VN16N2J&amp;pd_rd_r=d4c59b07-1936-4206-ba4a-6e7dd16e6af7&amp;pd_rd_w=YVz1g&amp;pd_rd_wg=tDuHf&amp;pf_rd_p=fd9c75b4-43e6-4220-9b33-6739e84937cc&amp;pf_rd_r=D01MY9223DX7DVFNH6DV&amp;psc=1&amp;refRID=D01MY9223DX7DVFNH6DV
