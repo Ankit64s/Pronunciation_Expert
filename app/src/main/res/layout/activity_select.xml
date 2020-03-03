@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Select">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textspeech"
+                android:text="Want to Learn?"
+                android:textSize="22dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="100dp"
+                android:background="#C3EE90"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:id="@+id/speechtext"
+                android:text="Test Yourself"
+                android:textSize="22dp"
+                android:layout_below="@id/textspeech"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:background="#C3EE90"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:id="@+id/game"
+                android:text="Feeling Bored?"
+                android:textSize="22dp"
+                android:layout_below="@id/speechtext"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:background="#C3EE90"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

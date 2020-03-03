@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".learn">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Word/Sentence/Phrase here"
+                android:id="@+id/edit"
+                android:layout_marginTop="40dp"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:id="@+id/slow"
+                android:layout_below="@id/edit"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:text="Slow Speech Rate"
+                android:background="#DF625E"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:id="@+id/moderate"
+                android:layout_below="@id/slow"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:text="Moderate Speech Rate"
+                android:background="#DF625E"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:id="@+id/fast"
+                android:layout_below="@id/moderate"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:text="Fast Speech Rate"
+                android:background="#DF625E"/>
+
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
